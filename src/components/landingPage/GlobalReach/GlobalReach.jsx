@@ -4,7 +4,7 @@ import Container from "../../shared/Container";
 import Content from "./Content";
 import FindWork from "./FindWork";
 
-const ResearchSection = () => {
+const GlobalReach = () => {
   return (
     <section className="py-16 md:py-24">
       <Container>
@@ -27,4 +27,4 @@ const ResearchSection = () => {
   );
 };
 
-export default ResearchSection;
+export default GlobalReach;
