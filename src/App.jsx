@@ -6,7 +6,6 @@ import RootLayout from "./components/layouts/RootLayout";
 const App = () => {
   return (
     <RootLayout>
-      <Navbar />
       <HeroSection />
     </RootLayout>
   );
