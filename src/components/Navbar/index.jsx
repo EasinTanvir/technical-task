@@ -1,13 +1,16 @@
 import React from "react";
 import BrandLogo from "./BrandLogo";
-import NavLinks from "./NavLinks";
+import NavItems from "./NavItems";
+import Container from "../shared/Container";
 
 const Navbar = () => {
   return (
-    <header>
+    <header className="absolute top-0 left-0 w-full z-50  py-6">
       <nav aria-label="Main Navigation">
-        <BrandLogo />
-        <NavLinks />
+        <Container className="flex justify-between w-full items-center">
+          <BrandLogo />
+          <NavItems />
+        </Container>
       </nav>
     </header>
   );

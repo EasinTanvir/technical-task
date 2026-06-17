@@ -1,9 +1,9 @@
 import React from "react";
 
 const variants = {
-  primary: "bg-black text-white hover:opacity-90",
+  primary: "",
   outline: "border border-black text-black hover:bg-black hover:text-white",
-  ghost: "text-black hover:bg-gray-100",
+  ghost: "",
 };
 
 const sizes = {
@@ -22,11 +22,10 @@ const Button = ({
   return (
     <button
       className={`
-        rounded-lg
         font-medium
+        cursor-pointer
         transition-all
         duration-300
-        cursor-pointer
         ${variants[variant]}
         ${sizes[size]}
         ${className}

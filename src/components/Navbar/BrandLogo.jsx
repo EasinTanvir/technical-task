@@ -1,7 +1,18 @@
 import React from "react";
+import { LogoImage } from "../../constant";
 
 const BrandLogo = () => {
-  return <div></div>;
+  return (
+    <a href="/" className="flex items-center" aria-label="RemoteRecruit home">
+      <img
+        src={LogoImage}
+        alt="RemoteRecruit logo"
+        width={140}
+        height={40}
+        className=" w-auto"
+      />
+    </a>
+  );
 };
 
 export default BrandLogo;
