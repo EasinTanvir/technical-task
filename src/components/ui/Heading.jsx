@@ -1,6 +1,6 @@
 import React from "react";
 
-const Heading = ({ as: Tag = "h2", children, className = "" }) => {
+const Heading = ({ as: Tag = "h2", children, id, className = "" }) => {
   const styles = {
     h1: "text-4xl md:text-5xl lg:text-6xl font-bold",
     h2: "text-3xl md:text-4xl font-bold",
@@ -10,7 +10,11 @@ const Heading = ({ as: Tag = "h2", children, className = "" }) => {
     h6: "text-base font-semibold",
   };
 
-  return <Tag className={`${styles[Tag]} ${className}`}>{children}</Tag>;
+  return (
+    <Tag id={id} className={`${styles[Tag]} ${className}`}>
+      {children}
+    </Tag>
+  );
 };
 
 export default Heading;
