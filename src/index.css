@@ -20,6 +20,7 @@ body {
   --color-research-card-shadow: rgba(49, 89, 211, 0.12);
   --color-research-logo-circle-shadow: rgba(49, 89, 211, 0.07);
   --color-member-ship-text: rgba(128, 129, 145, 1);
+  --color-feature-item-text: rgba(50, 52, 69, 0.9);
 
   --background-image-research-card-circle-border: linear-gradient(
     132.56deg,
@@ -28,6 +29,12 @@ body {
   );
 
   --background-image-research-logo-circle-bg: linear-gradient(
+    132.56deg,
+    #52b4da 5.63%,
+    #1e3e85 106.18%
+  );
+
+  --background-image-membership-heading: linear-gradient(
     132.56deg,
     #52b4da 5.63%,
     #1e3e85 106.18%
@@ -48,6 +55,14 @@ body {
       var(--background-image-research-card-circle-border);
     background-clip: padding-box, border-box;
     background-origin: border-box;
+  }
+
+  .membership-heading {
+    background-image: var(--background-image-membership-heading);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    color: transparent;
   }
 
   .flex-center {
