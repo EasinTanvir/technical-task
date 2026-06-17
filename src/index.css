@@ -2,6 +2,9 @@
 @import "./styles/fonts.css";
 
 @theme {
+  --color-heading-light: rgba(255, 255, 255, 1);
+  --color-heading-dark: #11142d;
+
   --font-sans: "Poppins", ui-sans-serif, system-ui, sans-serif;
 }
 

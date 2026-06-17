@@ -11,9 +11,7 @@ const sizes = {
 const Text = ({ as: Tag = "p", children, size = "md", className = "" }) => {
   return (
     <Tag
-      className={`
-        text-gray-600
-        leading-relaxed
+      className={`       
         ${sizes[size]}
         ${className}
       `}
