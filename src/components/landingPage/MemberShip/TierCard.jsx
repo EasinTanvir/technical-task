@@ -1,12 +1,12 @@
 import React from "react";
 import CircleLogo from "../../shared/CircleLogo";
 import EmptyCircle from "../../shared/EmptyCircle";
-import Profile from "../GlobalReach/Profile";
 import Heading from "../../ui/Heading";
 
 import { profileImage } from "../../../constant";
 import { membershipFeatures } from "../../../data/membershipFeatures";
 import FeatureItem from "./FeatureItem";
+import ProfileStateCard from "../GlobalReach/ProfileStateCard";
 
 const TierCard = () => {
   return (
@@ -66,7 +66,8 @@ const TierCard = () => {
           "
         />
 
-        <Profile
+        <ProfileStateCard
+          isMemberShip
           className="
             absolute
             -left-4

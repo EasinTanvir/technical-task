@@ -6,6 +6,7 @@ import findWorkImage from "./assets/research/findWork.webp";
 import profileImage from "./assets/research/profile.webp";
 
 import tikIcon from "./assets/icons/tikIcon.svg";
+import paypalIcon from "./assets/icons/paypalIcon.svg";
 
 export {
   heroBgImage,
@@ -14,4 +15,5 @@ export {
   profileImage,
   logoIconImage,
   tikIcon,
+  paypalIcon,
 };

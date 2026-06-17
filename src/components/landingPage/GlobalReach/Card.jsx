@@ -1,8 +1,9 @@
 import React from "react";
 import { findWorkImage, profileImage } from "../../../constant";
-import Profile from "./Profile";
+
 import CircleLogo from "../../shared/CircleLogo";
 import EmptyCircle from "../../shared/EmptyCircle";
+import ProfileStateCard from "./ProfileStateCard";
 
 const Card = () => {
   return (
@@ -15,14 +16,14 @@ const Card = () => {
         height={400}
         className="h-auto w-full  rounded-4xl"
       />
-      <Profile
+      <ProfileStateCard
         className="absolute sm:-left-17 -left-4 top-60 z-10"
         designationClass="text-research-profile-title-one text-xs"
         designation="Python Developer"
         name="Felonious Gru"
         imageSrc={profileImage}
       />
-      <Profile
+      <ProfileStateCard
         className="absolute sm:-right-7.5 -right-4 bottom-10  z-10"
         designationClass="text-research-profile-title-two text-xs"
         designation="Python Developer"

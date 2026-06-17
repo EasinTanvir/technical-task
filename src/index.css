@@ -39,6 +39,11 @@ body {
     #52b4da 5.63%,
     #1e3e85 106.18%
   );
+  --background-image-membership-circle-badge-bg: linear-gradient(
+    135deg,
+    rgba(235, 237, 255, 0.48) 0%,
+    rgba(173, 184, 255, 0.48) 100%
+  );
 
   --shadow-research-card: 14px 41px 100px 0px var(--color-research-card-shadow);
   --shadow-research-logo-circle: 14px 41px 50px 0px
