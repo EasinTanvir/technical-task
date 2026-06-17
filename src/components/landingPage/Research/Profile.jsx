@@ -22,12 +22,11 @@ const Profile = ({ className = "", designation, name, imageSrc }) => {
         width={64}
         height={64}
         className="
-          h-16
-          w-16
+          h-18
+          w-18
           shrink-0
-          rounded-full
-          border-4
-          border-yellow-400
+          research-card-circle-border-gradient      
+          shadow-research-card-shadow
           object-cover
         "
       />

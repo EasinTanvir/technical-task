@@ -1,6 +1,10 @@
 @import "tailwindcss";
 @import "./styles/fonts.css";
 
+body {
+  font-family: var(--font-sans);
+}
+
 @theme {
   --color-heading-light: rgba(255, 255, 255, 1);
   --color-heading-dark: #11142d;
@@ -12,6 +16,12 @@
   --color-research-card-border: rgba(246, 244, 255, 1);
   --color-research-card-shadow: rgba(49, 89, 211, 0.12);
 
+  --background-image-research-card-circle-border: linear-gradient(
+    132.56deg,
+    #ffed43 5.63%,
+    #f29939 106.18%
+  );
+
   --color-research-profile-title-one: rgba(30, 62, 133, 1);
   --color-research-profile-title-two: rgba(82, 180, 218, 1);
 
@@ -19,6 +29,14 @@
   --font-sans: "Poppins", ui-sans-serif, system-ui, sans-serif;
 }
 
-body {
-  font-family: var(--font-sans);
+@layer utilities {
+  .research-card-circle-border-gradient {
+    border: 4px solid transparent;
+    border-radius: 100%;
+    background-image:
+      linear-gradient(white, white),
+      var(--background-image-research-card-circle-border);
+    background-clip: padding-box, border-box;
+    background-origin: border-box;
+  }
 }
