@@ -12,6 +12,9 @@
   --color-research-card-border: rgba(246, 244, 255, 1);
   --color-research-card-shadow: rgba(49, 89, 211, 0.12);
 
+  --color-research-profile-title-one: rgba(30, 62, 133, 1);
+  --color-research-profile-title-two: rgba(82, 180, 218, 1);
+
   --shadow-research-card: 14px 41px 100px 0px var(--color-research-card-shadow);
   --font-sans: "Poppins", ui-sans-serif, system-ui, sans-serif;
 }
