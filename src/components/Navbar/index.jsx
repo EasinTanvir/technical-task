@@ -7,10 +7,10 @@ const Navbar = () => {
   return (
     <header className="absolute top-0 left-0 w-full z-50  py-6">
       <nav aria-label="Main Navigation">
-        <Container className="flex justify-between w-full items-center">
+        <div className="flex justify-between w-full items-center sm:px-10 px-4">
           <BrandLogo />
           <NavItems />
-        </Container>
+        </div>
       </nav>
     </header>
   );
