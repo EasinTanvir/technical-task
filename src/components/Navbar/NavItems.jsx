@@ -4,26 +4,11 @@ import Button from "../ui/Button";
 const NavItems = () => {
   return (
     <div className="flex items-center gap-4">
-      <Button
-        variant="ghost"
-        className="
-          text-heading-light
-          hover:opacity-80
-        "
-      >
+      <Button className="text-heading-light text-sm font-semibold">
         Sign In
       </Button>
 
-      <Button
-        variant="primary"
-        className="
-          bg-primary-button
-          text-heading-light
-          rounded-[20px]
-          hover:scale-105
-          hover:brightness-110
-        "
-      >
+      <Button className="bg-primary-button text-heading-light text-sm font-semibold rounded-2xl py-2 px-2.5">
         Sign Up
       </Button>
     </div>

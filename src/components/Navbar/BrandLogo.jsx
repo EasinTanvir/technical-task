@@ -9,7 +9,7 @@ const BrandLogo = () => {
         alt="RemoteRecruit logo"
         width={140}
         height={40}
-        className=" w-auto"
+        className="md:w-auto w-22"
       />
     </a>
   );

@@ -4,7 +4,7 @@ const sizes = {
   xs: "text-xs",
   sm: "text-sm",
   md: "text-base",
-  lg: "text-lg",
+  lg: "md:text-lg text-sm",
   xl: "text-xl",
 };
 

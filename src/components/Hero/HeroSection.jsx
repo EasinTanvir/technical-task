@@ -15,7 +15,7 @@ const HeroSection = () => {
       <BannerImage />
 
       <Container>
-        <div className="relative z-10 flex min-h-125 md:min-h-175 flex-col items-center justify-center text-center space-y-6 max-w-185 mx-auto">
+        <div className="relative z-10 flex min-h-140 md:min-h-175 flex-col items-center justify-center text-center space-y-6 max-w-185 mx-auto">
           <Heading as="h1" id="hero-heading">
             RemoteRecruit's Difference
           </Heading>
