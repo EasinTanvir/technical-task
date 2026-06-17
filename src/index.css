@@ -6,11 +6,13 @@
   --color-heading-dark: #11142d;
   --color-badge-text: rgba(17, 20, 45, 1);
   --color-badge-bg: rgba(194, 238, 255, 1);
-
   --color-research-text: rgba(17, 20, 45, 0.64);
-
   --color-primary-button: rgba(77, 168, 204, 0.9);
 
+  --color-research-card-border: rgba(246, 244, 255, 1);
+  --color-research-card-shadow: rgba(49, 89, 211, 0.12);
+
+  --shadow-research-card: 14px 41px 100px 0px var(--color-research-card-shadow);
   --font-sans: "Poppins", ui-sans-serif, system-ui, sans-serif;
 }
 

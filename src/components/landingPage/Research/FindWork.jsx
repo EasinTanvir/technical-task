@@ -2,10 +2,12 @@ import React from "react";
 import Card from "./Card";
 import CircleLogo from "./CircleLogo";
 
-import React from "react";
-
 const FindWork = () => {
-  return <div>FindWork</div>;
+  return (
+    <div className="  flex-1 ">
+      <Card />
+    </div>
+  );
 };
 
 export default FindWork;
