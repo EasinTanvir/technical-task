@@ -2,10 +2,11 @@ import React from "react";
 import { findWorkImage, profileImage } from "../../../constant";
 import Profile from "./Profile";
 import CircleLogo from "./CircleLogo";
+import EmptyCircle from "./EmptyCircle";
 
 const Card = () => {
   return (
-    <div className=" relative max-w-100 mx-auto p-4 shadow-research-card border border-research-card-border rounded-4xl h-120">
+    <div className="relative max-w-100 mx-auto p-4 shadow-research-card border border-research-card-border rounded-4xl h-120">
       <img
         src={findWorkImage}
         alt="RemoteRecruit dashboard showing available job listings for freelancers"
@@ -30,6 +31,7 @@ const Card = () => {
       />
 
       <CircleLogo />
+      <EmptyCircle />
     </div>
   );
 };

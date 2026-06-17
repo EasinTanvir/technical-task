@@ -4,7 +4,7 @@ import CircleLogo from "./CircleLogo";
 
 const FindWork = () => {
   return (
-    <div className="  flex-1 ">
+    <div className="flex-1">
       <Card />
     </div>
   );
