@@ -23,10 +23,9 @@ const FreeForever = () => {
       <Text
         size="lg"
         className="
-          mt-8
-          max-w-140
-          text-research-text
-          leading-[1.8]
+          mt-6
+          max-w-120
+          text-research-text         
           text-center
           md:text-left
         "
