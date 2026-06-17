@@ -3,7 +3,7 @@ import Badge from "../../shared/Badge";
 import Heading from "../../ui/Heading";
 import Text from "../../ui/Text";
 
-const ReSearchContent = () => {
+const Content = () => {
   return (
     <div className="flex-1  space-y-10">
       <Badge text="Global Reach" />
@@ -21,4 +21,4 @@ const ReSearchContent = () => {
   );
 };
 
-export default ReSearchContent;
+export default Content;

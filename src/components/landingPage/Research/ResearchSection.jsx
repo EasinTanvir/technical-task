@@ -1,8 +1,8 @@
 import React from "react";
 
-import ReSearchContent from "./ReSearchContent";
-import ReSearchImage from "./ReSearchImage";
 import Container from "../../shared/Container";
+import Content from "./Content";
+import FindWork from "./FindWork";
 
 const ResearchSection = () => {
   return (
@@ -19,8 +19,8 @@ const ResearchSection = () => {
             lg:justify-between
           "
         >
-          <ReSearchContent />
-          <ReSearchImage />
+          <Content />
+          <FindWork />
         </div>
       </Container>
     </section>
