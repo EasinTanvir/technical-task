@@ -1,5 +1,5 @@
 import React from "react";
-import { heroBgImage } from "../../constant";
+import { heroBgImage } from "../../../constant";
 
 const BannerImage = () => {
   return (

@@ -1,10 +1,10 @@
 import React from "react";
 
-import Container from "../shared/Container";
-import { heroBgImage } from "../../constant";
-import Heading from "../ui/Heading";
+import Container from "../../shared/Container";
+import { heroBgImage } from "../../../constant";
+import Heading from "../../ui/Heading";
 import BannerImage from "./BannerImage";
-import Text from "../ui/Text";
+import Text from "../../ui/Text";
 
 const HeroSection = () => {
   return (

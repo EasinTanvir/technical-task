@@ -1,6 +1,6 @@
 import React from "react";
 import Navbar from "./components/Navbar";
-import HeroSection from "./components/Hero/HeroSection";
+import HeroSection from "./components/landingPage/Hero/HeroSection";
 import RootLayout from "./components/layouts/RootLayout";
 
 const App = () => {
