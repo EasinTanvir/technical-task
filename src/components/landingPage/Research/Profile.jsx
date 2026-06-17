@@ -30,11 +30,11 @@ const Profile = ({
         width={64}
         height={64}
         className="
-          h-16
-          w-16
+          h-14
+          w-14
           shrink-0
           research-card-circle-border-gradient      
-          shadow-research-card-shadow
+          shadow-research-card
           object-cover
         "
       />

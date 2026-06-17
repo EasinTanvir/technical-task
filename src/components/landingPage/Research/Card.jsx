@@ -14,7 +14,7 @@ const Card = () => {
         className="h-auto w-full  rounded-4xl"
       />
       <Profile
-        className="absolute -left-25 top-60 z-10"
+        className="absolute -left-17 top-60 z-10"
         designationClass="text-research-profile-title-one text-xs"
         designation="Python Developer"
         name="Felonious Gru"
