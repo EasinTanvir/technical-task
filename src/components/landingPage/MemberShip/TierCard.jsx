@@ -16,7 +16,7 @@ const TierCard = () => {
           relative
           mx-auto
           h-120
-          max-w-[340px]
+          max-w-85
           rounded-[34px]
           border
           border-research-card-border

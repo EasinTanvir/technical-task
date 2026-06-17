@@ -24,7 +24,7 @@ const FreeForever = () => {
         size="lg"
         className="
           mt-8
-          max-w-[560px]
+          max-w-140
           text-research-text
           leading-[1.8]
           text-center
