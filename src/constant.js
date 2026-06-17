@@ -5,4 +5,13 @@ import logoIconImage from "./assets/brand/logoIcon.svg";
 import findWorkImage from "./assets/research/findWork.webp";
 import profileImage from "./assets/research/profile.webp";
 
-export { heroBgImage, LogoImage, findWorkImage, profileImage, logoIconImage };
+import tikIcon from "./assets/icons/tikIcon.svg";
+
+export {
+  heroBgImage,
+  LogoImage,
+  findWorkImage,
+  profileImage,
+  logoIconImage,
+  tikIcon,
+};

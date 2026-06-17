@@ -19,6 +19,7 @@ body {
 
   --color-research-card-shadow: rgba(49, 89, 211, 0.12);
   --color-research-logo-circle-shadow: rgba(49, 89, 211, 0.07);
+  --color-member-ship-text: rgba(128, 129, 145, 1);
 
   --background-image-research-card-circle-border: linear-gradient(
     132.56deg,
