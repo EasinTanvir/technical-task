@@ -1,7 +1,7 @@
 import React from "react";
 import { findWorkImage, profileImage } from "../../../constant";
 import Profile from "./Profile";
-import CircleLogo from "./CircleLogo";
+import CircleLogo from "../../shared/CircleLogo";
 import EmptyCircle from "./EmptyCircle";
 
 const Card = () => {
@@ -30,7 +30,7 @@ const Card = () => {
         imageSrc={profileImage}
       />
 
-      <CircleLogo />
+      <CircleLogo className=" absolute sm:-right-7.5 -right-4 top-40 z-10 " />
       <EmptyCircle />
     </div>
   );
