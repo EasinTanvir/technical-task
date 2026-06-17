@@ -12,7 +12,7 @@ const Content = () => {
         The First Fully Global Job Board, Anywhere, Ever
       </Heading>
 
-      <Text size="lg" className="text-research-text">
+      <Text size="lg" className="text-research-text ">
         RemoteRecruit connects candidates with opportunities around the world.
         With today’s remote-first workforce, you need to be able to find the
         best jobs and the best people for them, wherever they may be.

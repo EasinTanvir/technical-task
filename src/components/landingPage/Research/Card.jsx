@@ -16,14 +16,14 @@ const Card = () => {
         className="h-auto w-full  rounded-4xl"
       />
       <Profile
-        className="absolute -left-17 top-60 z-10"
+        className="absolute sm:-left-17 -left-4 top-60 z-10"
         designationClass="text-research-profile-title-one text-xs"
         designation="Python Developer"
         name="Felonious Gru"
         imageSrc={profileImage}
       />
       <Profile
-        className="absolute -right-7.5 bottom-10  z-10"
+        className="absolute sm:-right-7.5 -right-4 bottom-10  z-10"
         designationClass="text-research-profile-title-two text-xs"
         designation="Python Developer"
         name="Felonious Gru"

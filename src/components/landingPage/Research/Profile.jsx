@@ -18,8 +18,9 @@ const Profile = ({
         bg-white
         px-4 py-2
         shadow-research-card
-        min-w-100
-        max-w-100
+        min-w-full
+        sm:max-w-100
+        max-w-90
         ${className}
       `}
     >

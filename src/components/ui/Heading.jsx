@@ -1,7 +1,7 @@
 const Heading = ({ as: Tag = "h2", children, id, className = "" }) => {
   const styles = {
-    h1: "text-3xl md:text-4xl lg:text-5xl font-bold text-heading-light",
-    h2: "text-3xl md:text-4xl font-medium",
+    h1: "text-3xl md:text-4xl lg:text-5xl font-bold text-heading-light sm:text-start text-center",
+    h2: "text-3xl md:text-4xl font-medium sm:text-start text-center",
     h3: "text-2xl md:text-3xl font-medium",
     h4: "text-xl md:text-2xl font-medium",
     h5: "text-lg font-semibold",
