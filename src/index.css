@@ -5,6 +5,10 @@
   --color-heading-light: rgba(255, 255, 255, 1);
   --color-heading-dark: #11142d;
   --color-badge-text: rgba(17, 20, 45, 1);
+  --color-badge-bg: rgba(194, 238, 255, 1);
+
+  --color-research-text: rgba(17, 20, 45, 0.64);
+
   --color-primary-button: rgba(77, 168, 204, 0.9);
 
   --font-sans: "Poppins", ui-sans-serif, system-ui, sans-serif;
