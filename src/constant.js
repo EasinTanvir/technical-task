@@ -1,7 +1,8 @@
 import heroBgImage from "./assets/hero/Background.svg";
 import LogoImage from "./assets/brand/Logo.svg";
+import logoIconImage from "./assets/brand/logoIcon.svg";
 
 import findWorkImage from "./assets/research/findWork.webp";
 import profileImage from "./assets/research/profile.webp";
 
-export { heroBgImage, LogoImage, findWorkImage, profileImage };
+export { heroBgImage, LogoImage, findWorkImage, profileImage, logoIconImage };

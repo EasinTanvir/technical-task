@@ -1,6 +1,7 @@
 import React from "react";
 import { findWorkImage, profileImage } from "../../../constant";
 import Profile from "./Profile";
+import CircleLogo from "./CircleLogo";
 
 const Card = () => {
   return (
@@ -27,6 +28,8 @@ const Card = () => {
         name="Felonious Gru"
         imageSrc={profileImage}
       />
+
+      <CircleLogo />
     </div>
   );
 };
