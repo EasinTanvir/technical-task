@@ -7,7 +7,7 @@ import { areYouReadyBgImage } from "../../../constant";
 const AreYouReady = () => {
   return (
     <Section className="relative overflow-hidden">
-      <div className="relative w-full aspect-[1440/704]">
+      <div className="relative w-full aspect-1440/704">
         <BackgroundImage src={areYouReadyBgImage} />
 
         <AnimatedSection

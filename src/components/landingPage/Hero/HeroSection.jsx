@@ -42,7 +42,7 @@ const HeroSection = () => {
         transition={{ duration: 1.4, ease: [0.25, 0.1, 0.25, 1] }}
         className="absolute inset-0"
       >
-        <BackgroundImage src={heroBgImage} />
+        <BackgroundImage src={heroBgImage} priority />
       </motion.div>
 
       <Container>
