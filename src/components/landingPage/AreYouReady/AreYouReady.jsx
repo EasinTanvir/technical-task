@@ -7,6 +7,7 @@ import Text from "../../ui/Text";
 import Button from "../../ui/Button";
 
 import { arrowRightIcon } from "../../../constant";
+import EmptyCircle from "../../shared/EmptyCircle";
 
 const AreYouReady = () => {
   return (
@@ -104,6 +105,9 @@ const AreYouReady = () => {
           </Button>
         </div>
       </Container>
+
+      <EmptyCircle className=" absolute  bottom-16 right-40 z-10" />
+      <EmptyCircle className=" absolute  top-10 left-50 z-10 bg-empty-circle-yellow-bg! w-10 h-10 " />
     </section>
   );
 };
