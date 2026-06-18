@@ -26,7 +26,6 @@ const PricingCard = ({ plan }) => {
       `}
     >
       <div className="flex sm:flex-row flex-col gap-5 md:gap-6">
-        {/* Left Side */}
         <div
           className="
             relative
@@ -74,7 +73,6 @@ const PricingCard = ({ plan }) => {
           </Text>
         </div>
 
-        {/* Right Side */}
         <div className="flex flex-1 flex-col justify-center">
           <ul className="sm:space-y-4 space-y-3.5">
             {plan.features.map((feature) => (
