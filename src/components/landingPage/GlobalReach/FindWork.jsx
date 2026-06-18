@@ -14,14 +14,14 @@ const FindWork = () => {
         altText="RemoteRecruit dashboard showing available job listings for freelancers"
       >
         <ProfileStateCard
-          className="absolute sm:-left-17 -left-4 top-60 z-10"
+          className="absolute sm:-left-17 -left-4 top-55 z-10"
           designationClass="text-research-profile-title-one text-xs"
           designation="Python Developer"
           name="Felonious Gru"
           imageSrc={profileImage}
         />
         <ProfileStateCard
-          className="absolute sm:-right-7.5 -right-4 bottom-10  z-10"
+          className="absolute sm:-right-7.5 -right-4 bottom-8  z-10"
           designationClass="text-research-profile-title-two text-xs"
           designation="Python Developer"
           name="Felonious Gru"

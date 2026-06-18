@@ -14,7 +14,7 @@ const ProfileStateCard = ({
   return (
     <div
       className={`
-        flex items-center gap-4
+        flex items-center gap-2.5
         rounded-[40px]
         border-research-card-border
         bg-heading-light
@@ -33,8 +33,8 @@ const ProfileStateCard = ({
           width={64}
           height={64}
           className="
-          h-14
-          w-14          
+          h-13
+          w-13          
           research-card-circle-border-gradient      
           shadow-research-card
           object-cover
@@ -43,8 +43,8 @@ const ProfileStateCard = ({
       ) : (
         <div
           className="
-          h-14
-          w-14
+          h-13
+          w-13
           shrink-0           
           shadow-research-card
           bg-membership-circle-badge-bg
@@ -73,7 +73,7 @@ const ProfileStateCard = ({
           {designation}
         </Text>
 
-        <Heading as="h3" className=" mt-1 text-badge-text text-lg!">
+        <Heading as="h3" className="  text-badge-text text-lg!">
           {name}
         </Heading>
       </div>
