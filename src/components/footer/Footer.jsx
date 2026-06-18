@@ -23,8 +23,10 @@ const Footer = () => {
             justify-between
             gap-8
 
-            pt-72
-            pb-10
+            sm:pt-72
+            py-78
+            sm:pb-10
+            pb-2
 
             md:flex-row
           "
