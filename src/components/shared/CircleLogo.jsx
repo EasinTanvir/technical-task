@@ -1,16 +1,20 @@
 import React from "react";
 import { logoIconImage } from "../../constant";
-const CircleLogo = ({ className = "" }) => {
+const CircleLogo = ({
+  className = "",
+  image = logoIconImage,
+  altText = "remoteRecruit_logo",
+}) => {
   return (
     <div
-      className={`sm:w-22 sm:h-22 w-16 h-16 rounded-full flex-center bg-research-logo-circle-bg  shadow-research-logo-circle ${className}`}
+      className={` w-16 h-16 p-2  rounded-full flex-center bg-research-logo-circle-bg  shadow-research-logo-circle ${className}`}
     >
       <img
-        src={logoIconImage}
-        alt="RemoteRecruit logo"
+        src={image}
+        alt={altText}
         width={140}
         height={40}
-        className="sm:w-11 w-7"
+        className="w-full rounded-full"
       />
     </div>
   );
