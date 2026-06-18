@@ -4,6 +4,7 @@ import Text from "../../ui/Text";
 import Button from "../../ui/Button";
 import { arrowRightIcon } from "../../../constant";
 import Section from "../../shared/Section";
+import Heading from "../../ui/Heading";
 
 const Content = () => {
   return (
@@ -66,32 +67,35 @@ const Content = () => {
 
           <Button
             className="
-                  mt-2
-                  sm:mt-5
-                  md:mt-8
-                  flex
-                  items-center
-                  gap-1
-                  sm:gap-2
-                  md:gap-3
-                  rounded-full
-                  bg-badge-bg
-                  p-1
-                  sm:p-1.5
-                  md:p-2
-                "
+    group
+    mt-2
+    sm:mt-5
+    md:mt-8
+    flex
+    items-center
+    gap-1
+    sm:gap-2
+    md:gap-3
+    rounded-full
+    bg-badge-bg
+    p-1
+    sm:p-1.5
+    md:p-2
+    transition-all
+    duration-300
+    hover:-translate-y-0.5
+    hover:shadow-lg
+  "
           >
             <span
               className="
-                    flex
+                    flex-center
                     h-4
                     w-4
                     sm:h-6
                     sm:w-6
                     md:h-8.5
-                    md:w-8.5
-                    items-center
-                    justify-center
+                    md:w-8.5                    
                     rounded-full
                     bg-research-profile-title-two
                   "
@@ -100,7 +104,7 @@ const Content = () => {
                 src={arrowRightIcon}
                 alt=""
                 aria-hidden="true"
-                className="w-1.5 sm:w-2.5 md:w-4"
+                className="w-1.5 sm:w-2.5 md:w-4 mt-0.5"
               />
             </span>
             <span

@@ -1,10 +1,24 @@
+// Question.jsx
+
 import React from "react";
+import { motion } from "framer-motion";
 import Heading from "../../ui/Heading";
 import Text from "../../ui/Text";
 
-const Question = ({ question, answer }) => {
+const Question = ({ question, answer, delay = 0 }) => {
   return (
-    <div>
+    <motion.div
+      initial={{ opacity: 0, y: 15 }}
+      whileInView={{ opacity: 1, y: 0 }}
+      viewport={{
+        once: true,
+        amount: 0.2,
+      }}
+      transition={{
+        duration: 0.5,
+        delay,
+      }}
+    >
       <Heading as="h3" className="text-badge-text">
         {question}
       </Heading>
@@ -19,7 +33,7 @@ const Question = ({ question, answer }) => {
       >
         {answer}
       </Text>
-    </div>
+    </motion.div>
   );
 };
 
