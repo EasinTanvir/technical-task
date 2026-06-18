@@ -3,10 +3,11 @@ import React from "react";
 import Container from "../../shared/Container";
 import ShowCaseTalent from "./ShowCaseTalent";
 import JobCompletion from "./JobCompletion";
+import Section from "../../shared/Section";
 
 const CustomProfile = () => {
   return (
-    <section className="py-16 md:py-24">
+    <Section>
       <Container
         className="flex
             flex-col
@@ -19,7 +20,7 @@ const CustomProfile = () => {
         <ShowCaseTalent />
         <JobCompletion />
       </Container>
-    </section>
+    </Section>
   );
 };
 
