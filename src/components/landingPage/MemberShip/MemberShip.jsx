@@ -3,10 +3,11 @@ import Container from "../../shared/Container";
 
 import TierCard from "./TierCard";
 import FreeForever from "./FreeForever";
+import Section from "../../shared/Section";
 
 const MemberShip = () => {
   return (
-    <section className="py-16 md:py-24">
+    <Section>
       <Container
         className="flex
             flex-col
@@ -19,7 +20,7 @@ const MemberShip = () => {
         <TierCard />
         <FreeForever />
       </Container>
-    </section>
+    </Section>
   );
 };
 
