@@ -1,9 +1,11 @@
 import React from "react";
 import { findWorkImage } from "../../constant";
 
-const Card = ({ children, image, altText }) => {
+const Card = ({ children, image, altText, className = "" }) => {
   return (
-    <div className="relative max-w-90 mx-auto p-4 shadow-research-card border border-research-card-border rounded-4xl h-120">
+    <div
+      className={`relative max-w-88 mx-auto p-4 shadow-research-card border border-research-card-border rounded-4xl h-110 ${className}`}
+    >
       <img
         src={image}
         alt={altText}

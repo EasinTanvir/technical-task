@@ -44,6 +44,16 @@ body {
     rgba(235, 237, 255, 0.48) 0%,
     rgba(173, 184, 255, 0.48) 100%
   );
+  --background-image-skill-badge-bg: linear-gradient(
+    132.56deg,
+    rgba(87, 153, 235, 0.1) 5.63%,
+    rgba(159, 116, 251, 0.1) 106.18%
+  );
+  --background-image-skill-badge-text: linear-gradient(
+    131.63deg,
+    #336da6 6.87%,
+    #1e3e85 106.04%
+  );
 
   --shadow-research-card: 14px 41px 100px 0px var(--color-research-card-shadow);
   --shadow-research-logo-circle: 14px 41px 50px 0px
@@ -64,6 +74,14 @@ body {
 
   .membership-heading {
     background-image: var(--background-image-membership-heading);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    color: transparent;
+  }
+
+  .skill-badge-text-color {
+    background-image: var(--background-image-skill-badge-text);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     background-clip: text;

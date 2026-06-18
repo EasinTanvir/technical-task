@@ -4,6 +4,8 @@ import ProfileStateCard from "../../shared/ProfileStateCard";
 import CircleLogo from "../../shared/CircleLogo";
 import EmptyCircle from "../../shared/EmptyCircle";
 import { jobImage, profileImage } from "../../../constant";
+import Skills from "./Skills";
+import { skillLists } from "../../../data/skills";
 
 const JobCompletion = () => {
   return (
@@ -23,6 +25,8 @@ const JobCompletion = () => {
           className=" absolute sm:-right-7.5 -right-4 top-40 z-10 "
         />
         <EmptyCircle className=" absolute sm:-left-12 -left-4 sm:top-0 -top-2 z-10" />
+
+        <Skills skillLists={skillLists} />
       </Card>
     </div>
   );
