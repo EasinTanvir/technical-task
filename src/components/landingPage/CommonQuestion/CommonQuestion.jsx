@@ -1,8 +1,9 @@
 import React from "react";
+
+import Question from "./Question";
 import Container from "../../shared/Container";
 import Heading from "../../ui/Heading";
 import Button from "../../ui/Button";
-import Question from "./Question";
 import Section from "../../shared/Section";
 import AnimatedSection from "../../shared/animation/AnimatedSection";
 import { commonQuestions } from "../../../data/commonQuestions";

@@ -1,6 +1,6 @@
 import React from "react";
-import Container from "../../shared/Container";
 
+import Container from "../../shared/Container";
 import TierCard from "./TierCard";
 import FreeForever from "./FreeForever";
 import Section from "../../shared/Section";

@@ -1,26 +1,12 @@
 import React from "react";
-import Container from "../../shared/Container";
-import Heading from "../../ui/Heading";
-import PricingCard from "./PricingCard";
-import { pricingPlans } from "../../../data/pricingPlans";
-import Section from "../../shared/Section";
 import { motion } from "framer-motion";
 
-const cardVariants = {
-  hidden: { opacity: 0, y: 40, scale: 0.92 },
-  visible: (i) => ({
-    opacity: 1,
-    y: 0,
-    scale: 1,
-    transition: {
-      delay: i * 0.15,
-      duration: 0.6,
-      type: "spring",
-      stiffness: 120,
-      damping: 14,
-    },
-  }),
-};
+import PricingCard from "./PricingCard";
+import Container from "../../shared/Container";
+import Heading from "../../ui/Heading";
+import { pricingPlans } from "../../../data/pricingPlans";
+import Section from "../../shared/Section";
+import { cardVariants } from "../../shared/animation/varaints";
 
 const HelpClick = () => {
   return (

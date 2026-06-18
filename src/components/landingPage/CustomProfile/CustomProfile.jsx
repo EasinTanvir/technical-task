@@ -1,4 +1,5 @@
 import React from "react";
+
 import Container from "../../shared/Container";
 import ShowCaseTalent from "./ShowCaseTalent";
 import JobCompletion from "./JobCompletion";

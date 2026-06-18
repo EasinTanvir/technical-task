@@ -1,9 +1,11 @@
 import React from "react";
+
+import Content from "./Content";
 import Section from "../../shared/Section";
 import BackgroundImage from "../../shared/BackgroundImage";
-import Content from "./Content";
 import AnimatedSection from "../../shared/animation/AnimatedSection";
 import { areYouReadyBgImage } from "../../../constant";
+
 const AreYouReady = () => {
   return (
     <Section className="relative overflow-hidden">
