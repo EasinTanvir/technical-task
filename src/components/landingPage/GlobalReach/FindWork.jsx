@@ -4,12 +4,15 @@ import Card from "../../shared/Card";
 import ProfileStateCard from "../../shared/ProfileStateCard";
 import CircleLogo from "../../shared/CircleLogo";
 import EmptyCircle from "../../shared/EmptyCircle";
-import { profileImage } from "../../../constant";
+import { findWorkImage, profileImage } from "../../../constant";
 
 const FindWork = () => {
   return (
     <div className="flex-1">
-      <Card>
+      <Card
+        image={findWorkImage}
+        altText="RemoteRecruit dashboard showing available job listings for freelancers"
+      >
         <ProfileStateCard
           className="absolute sm:-left-17 -left-4 top-60 z-10"
           designationClass="text-research-profile-title-one text-xs"
