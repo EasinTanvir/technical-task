@@ -1,18 +1,18 @@
 import React from "react";
 import Container from "../../shared/Container";
-import BackgroundImage from "./BackgroundImage";
 
 import Heading from "../../ui/Heading";
 import Text from "../../ui/Text";
 import Button from "../../ui/Button";
 
-import { arrowRightIcon } from "../../../constant";
+import { areYouReadyBgImage, arrowRightIcon } from "../../../constant";
 import EmptyCircle from "../../shared/EmptyCircle";
+import BackgroundImage from "../../shared/BackgroundImage";
 
 const AreYouReady = () => {
   return (
     <section className="relative h-165 overflow-hidden">
-      <BackgroundImage />
+      <BackgroundImage src={areYouReadyBgImage} />
 
       <Container
         className="
