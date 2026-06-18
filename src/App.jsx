@@ -8,6 +8,7 @@ import MemberShip from "./components/landingPage/MemberShip/MemberShip";
 import CustomProfile from "./components/landingPage/CustomProfile/CustomProfile";
 import AreYouReady from "./components/landingPage/AreYouReady/AreYouReady";
 import CommonQuestion from "./components/landingPage/CommonQuestion/CommonQuestion";
+import HelpClick from "./components/landingPage/HelpClick/HelpClick";
 
 const App = () => {
   return (
@@ -18,6 +19,7 @@ const App = () => {
       <CustomProfile />
       <AreYouReady />
       <CommonQuestion />
+      <HelpClick />
     </RootLayout>
   );
 };
