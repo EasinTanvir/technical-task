@@ -8,7 +8,7 @@ import Heading from "../../ui/Heading";
 
 const Content = () => {
   return (
-    <div className="absolute inset-0 flex items-center">
+    <div className="flex items-center h-full">
       <Container className="w-full flex justify-end">
         <div
           className="

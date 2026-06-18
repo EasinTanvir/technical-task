@@ -1,10 +1,9 @@
 import React from "react";
-
 import Container from "../../shared/Container";
 import ShowCaseTalent from "./ShowCaseTalent";
 import JobCompletion from "./JobCompletion";
 import Section from "../../shared/Section";
-import SectionReveal from "../../shared/animation/SectionReveal";
+import AnimatedSection from "../../shared/animation/AnimatedSection";
 
 const CustomProfile = () => {
   return (
@@ -20,13 +19,13 @@ const CustomProfile = () => {
           lg:justify-between
         "
       >
-        <SectionReveal className="flex-1">
+        <AnimatedSection direction="right" className="flex-1">
           <ShowCaseTalent />
-        </SectionReveal>
+        </AnimatedSection>
 
-        <SectionReveal className="flex-1" delay={0.15}>
+        <AnimatedSection direction="left" delay={0.15} className="flex-1">
           <JobCompletion />
-        </SectionReveal>
+        </AnimatedSection>
       </Container>
     </Section>
   );

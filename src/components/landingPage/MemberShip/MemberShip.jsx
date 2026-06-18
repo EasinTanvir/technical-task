@@ -4,7 +4,7 @@ import Container from "../../shared/Container";
 import TierCard from "./TierCard";
 import FreeForever from "./FreeForever";
 import Section from "../../shared/Section";
-import SectionReveal from "../../shared/animation/SectionReveal";
+import AnimatedSection from "../../shared/animation/AnimatedSection";
 
 const MemberShip = () => {
   return (
@@ -20,13 +20,13 @@ const MemberShip = () => {
           lg:justify-between
         "
       >
-        <SectionReveal className="flex-1">
+        <AnimatedSection direction="up" className="flex-1">
           <TierCard />
-        </SectionReveal>
+        </AnimatedSection>
 
-        <SectionReveal className="flex-1" delay={0.15}>
+        <AnimatedSection direction="up" delay={0.15} className="flex-1">
           <FreeForever />
-        </SectionReveal>
+        </AnimatedSection>
       </Container>
     </Section>
   );

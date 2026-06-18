@@ -4,7 +4,7 @@ import Container from "../../shared/Container";
 import Content from "./Content";
 import FindWork from "./FindWork";
 import Section from "../../shared/Section";
-import SectionReveal from "../../shared/animation/SectionReveal";
+import AnimatedSection from "../../shared/animation/AnimatedSection";
 
 const GlobalReach = () => {
   return (
@@ -20,13 +20,13 @@ const GlobalReach = () => {
           lg:justify-between
         "
       >
-        <SectionReveal className="flex-1">
+        <AnimatedSection direction="left" className="flex-1">
           <Content />
-        </SectionReveal>
+        </AnimatedSection>
 
-        <SectionReveal className="flex-1" delay={0.15}>
+        <AnimatedSection direction="right" delay={0.15} className="flex-1">
           <FindWork />
-        </SectionReveal>
+        </AnimatedSection>
       </Container>
     </Section>
   );
