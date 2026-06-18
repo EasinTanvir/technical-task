@@ -8,7 +8,7 @@ import { findWorkImage, profileImage } from "../../../constant";
 const JobCompletion = () => {
   return (
     <div className="flex-1">
-      <Card image={findWorkImage}>
+      <Card image={findWorkImage} altText="Job completed dashboard snapshot">
         <ProfileStateCard
           className="absolute sm:-left-17 -left-4 top-60 z-10"
           designationClass="text-research-profile-title-one text-xs"
