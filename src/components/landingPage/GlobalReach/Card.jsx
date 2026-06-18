@@ -3,7 +3,7 @@ import { findWorkImage, profileImage } from "../../../constant";
 
 import CircleLogo from "../../shared/CircleLogo";
 import EmptyCircle from "../../shared/EmptyCircle";
-import ProfileStateCard from "./ProfileStateCard";
+import ProfileStateCard from "../../shared/ProfileStateCard";
 
 const Card = () => {
   return (

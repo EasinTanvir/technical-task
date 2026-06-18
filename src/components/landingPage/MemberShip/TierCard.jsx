@@ -6,7 +6,7 @@ import Heading from "../../ui/Heading";
 import { profileImage } from "../../../constant";
 import { membershipFeatures } from "../../../data/membershipFeatures";
 import FeatureItem from "./FeatureItem";
-import ProfileStateCard from "../GlobalReach/ProfileStateCard";
+import ProfileStateCard from "../../shared/ProfileStateCard";
 
 const TierCard = () => {
   return (

@@ -1,7 +1,7 @@
 import React from "react";
-import Heading from "../../ui/Heading";
-import Text from "../../ui/Text";
-import { paypalIcon } from "../../../constant";
+import Heading from "../ui/Heading";
+import Text from "../ui/Text";
+import { paypalIcon } from "../../constant";
 
 const ProfileStateCard = ({
   className = "",
