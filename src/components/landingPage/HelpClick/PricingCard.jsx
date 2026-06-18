@@ -29,7 +29,7 @@ const PricingCard = ({ plan }) => {
           className="
             relative
             flex
-            w-[140px]
+            w-[150px]
             shrink-0
             flex-col
             items-center
@@ -37,13 +37,25 @@ const PricingCard = ({ plan }) => {
             rounded-2xl
             bg-plan-card-bg
             px-4
-            py-10
+            py-13
           "
         >
           {plan.badge && (
             <Badge
+              iconClassName="mt-1"
+              Isicon
+              icon={premiumIcon}
+              alt="Premium"
               text="Premium"
-              className="absolute -top-5 left-0 right-0 w-full max-w-full! flex-center"
+              className="
+      absolute
+      -top-5
+      left-1/2
+      -translate-x-1/2
+      pe-4
+      ps-2
+      py-1
+    "
             />
           )}
 
