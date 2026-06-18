@@ -17,7 +17,8 @@ const Badge = ({
         py-2
         px-3
         max-w-fit
-
+        sm:mx-0
+        mx-auto
         ${Isicon ? "flex items-center gap-2" : ""}
 
         ${className}
