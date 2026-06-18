@@ -10,7 +10,7 @@ import { commonQuestions } from "../../../data/commonQuestions";
 
 const CommonQuestion = () => {
   return (
-    <Section className="z-40 relative">
+    <Section className="z-40 relative py-10!">
       <Container>
         <AnimatedSection direction="up">
           <Heading as="h2" className="text-badge-text">

@@ -12,7 +12,7 @@ import Image from "../shared/Image";
 
 const Footer = () => {
   return (
-    <footer className="relative min-h-96 -mt-72">
+    <footer className="relative min-h-96 lg:-mt-72 -mt-64">
       <BackgroundImage src={footerBg} className="-z-10" />
 
       <AnimatedSection direction="up" amount={0.3}>

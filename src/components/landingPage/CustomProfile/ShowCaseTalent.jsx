@@ -6,7 +6,7 @@ import Text from "../../ui/Text";
 
 const ShowCaseTalent = () => {
   return (
-    <div className="flex-1  lg:space-y-10 space-y-3">
+    <div className="flex-1  lg:space-y-7 space-y-3">
       <Badge text="Custom Profile" />
 
       <Heading
