@@ -107,11 +107,12 @@ const PricingCard = ({ plan }) => {
           w-full
           rounded-full
           py-4
+          text-lg font-semibold
 
           ${
             plan.featured
-              ? "bg-gradient-to-r from-[#1E3A8A] to-[#2F5BD0] text-white"
-              : "border border-primary bg-white text-primary"
+              ? "bg-pricing-card-button-bg text-white shadow-pricing-card-shadow"
+              : "pricing-card-button-border text-research-profile-title-one "
           }
         `}
       >
