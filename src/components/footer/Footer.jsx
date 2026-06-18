@@ -8,53 +8,68 @@ import { LogoImage, logoIconImage } from "../../constant";
 import { socialLinks } from "../../data/socialLinks";
 import { footerBg } from "../../constant";
 import SocialLinkItem from "./SocialLinkItem";
+import AnimatedSection from "../shared/animation/AnimatedSection";
 
 const Footer = () => {
   return (
-    <footer className="relative min-h-96 -mt-72 ">
+    <footer className="relative min-h-96 -mt-72">
       <BackgroundImage src={footerBg} className="-z-10" />
 
       {/* Top Content */}
-      <Container
-        className="
-            flex
-            flex-col
-            items-center
-            justify-between
-            gap-8
+      <AnimatedSection direction="up" amount={0.3}>
+        <Container
+          className="
+              flex
+              flex-col
+              items-center
+              justify-between
+              gap-8
 
-            sm:pt-72
-            py-78
-            sm:pb-10
-            pb-2
+              sm:pt-72
+              py-78
+              sm:pb-10
+              pb-2
 
-            md:flex-row
-          "
-      >
-        <img
-          src={LogoImage}
-          alt="RemoteRecruit"
-          width={180}
-          height={60}
-          className="w-40 md:w-48"
-        />
+              md:flex-row
+            "
+        >
+          <img
+            src={LogoImage}
+            alt="RemoteRecruit"
+            width={180}
+            height={60}
+            className="w-40 md:w-48"
+          />
 
-        <div className="flex items-center gap-3">
-          {socialLinks.map((social) => (
-            <SocialLinkItem
-              key={social.name}
-              href={social.href}
-              icon={social.icon}
-              name={social.name}
-            />
-          ))}
-        </div>
-      </Container>
+          <div className="flex items-center gap-3">
+            {socialLinks.map((social, index) => (
+              <AnimatedSection
+                key={social.name}
+                direction="up"
+                delay={0.15 + index * 0.06}
+                amount={0.3}
+                as="span"
+                className="inline-block"
+              >
+                <SocialLinkItem
+                  href={social.href}
+                  icon={social.icon}
+                  name={social.name}
+                />
+              </AnimatedSection>
+            ))}
+          </div>
+        </Container>
+      </AnimatedSection>
 
       {/* Full Width Divider */}
       <Divider className="mt-10" />
 
-      <div className="flex justify-center py-4">
+      <AnimatedSection
+        direction="up"
+        amount={0.5}
+        className="flex justify-center py-4"
+      >
         <img
           src={logoIconImage}
           alt="RemoteRecruit Icon"
@@ -62,7 +77,7 @@ const Footer = () => {
           height={40}
           className="w-8"
         />
-      </div>
+      </AnimatedSection>
     </footer>
   );
 };
