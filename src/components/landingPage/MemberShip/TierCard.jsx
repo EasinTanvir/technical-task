@@ -14,6 +14,7 @@ const TierCard = () => {
       <div
         className="
           relative
+          sm:mx-0
           mx-auto
           h-120
           max-w-85
