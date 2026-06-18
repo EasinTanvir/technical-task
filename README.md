@@ -1,16 +1,47 @@
-# React + Vite
+## Project Setup Instructions
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+### Install Dependencies
 
-Currently, two official plugins are available:
+```bash
+npm install
+```
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+### Run Development Server
 
-## React Compiler
+```bash
+npm run dev
+```
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+### Build for Production
 
-## Expanding the ESLint configuration
+```bash
+npm run build
+```
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+### Preview Production Build
+
+```bash
+npm run preview
+```
+
+## Frameworks / Libraries Used
+
+- React 19
+- Vite
+- Tailwind CSS V4
+- Framer Motion
+- @fontsource/poppins
+
+## Known Issues / Limitations
+
+- This project is a single-page landing page based on the provided design; therefore, React Router was not used.
+- Navigation and social media links are currently placeholders and do not navigate to real destinations.
+- Some content uses mock data (Common Questions, Membership Features, Pricing Plans, Skill Lists, and Social Links) as specified in the assessment requirements.
+- Lighthouse scores may vary slightly depending on browser, device, and network conditions.
+
+## Lighthouse Scores I Got
+
+- Mobile Performance: 96
+- Desktop Performance: 99
+
+> Scores may vary slightly depending on browser, device, and network conditions.
