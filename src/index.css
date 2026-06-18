@@ -24,6 +24,9 @@ body {
   --color-are-you-ready-text: rgba(118, 119, 132, 1);
   --color-common-question-border-color: rgba(83, 180, 218, 0.7);
   --color-common-question-ans-text: rgba(109, 110, 122, 1);
+  --color-plan-card-bg: rgba(236, 242, 255, 1);
+  --color-plan-card-subtitle: rgba(17, 20, 45, 0.4);
+  --color-plan-card-active-feature-text: rgba(50, 52, 69, 1);
 
   --background-image-research-card-circle-border: linear-gradient(
     132.56deg,
