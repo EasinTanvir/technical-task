@@ -1,4 +1,3 @@
-// src/components/shared/AnimatedSection.jsx
 import React from "react";
 import { motion } from "framer-motion";
 
@@ -10,14 +9,6 @@ const directionOffsets = {
   none: { y: 0, x: 0 },
 };
 
-/**
- * Wraps any section/element with a "fade + rise into place" animation
- * that triggers once when it scrolls into view.
- *
- * Usage:
- *   <AnimatedSection><GlobalReach /></AnimatedSection>
- *   <AnimatedSection direction="left" delay={0.1}><Content /></AnimatedSection>
- */
 const AnimatedSection = ({
   children,
   direction = "up",
