@@ -5,16 +5,17 @@ import Button from "../../ui/Button";
 import Heading from "../../ui/Heading";
 
 import { commonQuestions } from "../../../data/commonQuestions";
+import Section from "../../shared/Section";
 
 const CommonQuestion = () => {
   return (
-    <section className="py-16 md:py-24 z-40 relative">
+    <Section className=" z-40 relative">
       <Container>
         <Heading as="h2" className="text-badge-text">
           Common Questions
         </Heading>
 
-        <div className="mt-12 space-y-10">
+        <div className="sm:mt-12 mt-6 sm:space-y-10 space-y-6">
           {commonQuestions.map((item) => (
             <Question
               key={item.id}
@@ -26,7 +27,8 @@ const CommonQuestion = () => {
 
         <Button
           className="
-            mt-12
+            sm:mt-12
+            mt-5
             border-2
             border-common-question-border-color
             bg-transparent
@@ -35,13 +37,14 @@ const CommonQuestion = () => {
             hover:text-white
             font-semibold
             rounded-2xl
-            p-4.5
+            lg:p-4.5 p-2.5
+            sm:text-base text-sm
           "
         >
           More Questions
         </Button>
       </Container>
-    </section>
+    </Section>
   );
 };
 

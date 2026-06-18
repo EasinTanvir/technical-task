@@ -5,15 +5,16 @@ import Text from "../../ui/Text";
 const Question = ({ question, answer }) => {
   return (
     <div>
-      <Heading as="h3" className="text-lg text-badge-text">
+      <Heading as="h3" className="text-badge-text">
         {question}
       </Heading>
 
       <Text
         className="
-          mt-4
+          sm:mt-4 mt-1
           text-common-question-ans-text
-          leading-8
+          leading-8 text-start
+          sm:text-base text-sm
         "
       >
         {answer}
