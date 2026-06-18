@@ -1,6 +1,7 @@
 import React from "react";
 import { motion } from "framer-motion";
 import { LogoImage } from "../../constant";
+import Image from "../shared/Image";
 
 const BrandLogo = () => {
   return (
@@ -13,11 +14,12 @@ const BrandLogo = () => {
       className="flex items-center"
       aria-label="RemoteRecruit home"
     >
-      <img
+      <Image
         src={LogoImage}
         alt="RemoteRecruit logo"
         width={140}
         height={40}
+        priority
         className="md:w-auto w-22"
       />
     </motion.a>

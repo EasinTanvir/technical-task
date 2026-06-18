@@ -1,4 +1,5 @@
 import React from "react";
+import Image from "./Image";
 
 const Badge = ({
   text,
@@ -58,7 +59,7 @@ const BadgeIcon = ({
         ${iconContainerClassName}
       `}
     >
-      <img
+      <Image
         src={icon}
         alt={alt}
         width={20}

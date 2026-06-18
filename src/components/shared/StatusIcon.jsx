@@ -1,3 +1,5 @@
+import Image from "./Image";
+
 const StatusIcon = ({ icon, alt = "", className = "", iconClassName = "" }) => {
   return (
     <div
@@ -9,7 +11,7 @@ const StatusIcon = ({ icon, alt = "", className = "", iconClassName = "" }) => {
         ${className}
       `}
     >
-      <img
+      <Image
         src={icon}
         alt={alt}
         width={10}

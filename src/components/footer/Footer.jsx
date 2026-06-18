@@ -9,6 +9,7 @@ import { socialLinks } from "../../data/socialLinks";
 import { footerBg } from "../../constant";
 import SocialLinkItem from "./SocialLinkItem";
 import AnimatedSection from "../shared/animation/AnimatedSection";
+import Image from "../shared/Image";
 
 const Footer = () => {
   return (
@@ -33,7 +34,7 @@ const Footer = () => {
               md:flex-row
             "
         >
-          <img
+          <Image
             src={LogoImage}
             alt="RemoteRecruit"
             width={180}
@@ -70,7 +71,7 @@ const Footer = () => {
         amount={0.5}
         className="flex justify-center py-4"
       >
-        <img
+        <Image
           src={logoIconImage}
           alt="RemoteRecruit Icon"
           width={40}

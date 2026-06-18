@@ -1,5 +1,6 @@
 import React from "react";
 import { logoIconImage } from "../../constant";
+import Image from "./Image";
 const CircleLogo = ({
   className = "",
   image = logoIconImage,
@@ -9,7 +10,7 @@ const CircleLogo = ({
     <div
       className={` w-16 h-16 p-2  rounded-full flex-center bg-research-logo-circle-bg  shadow-research-logo-circle ${className}`}
     >
-      <img
+      <Image
         src={image}
         alt={altText}
         width={140}

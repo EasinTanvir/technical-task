@@ -2,6 +2,7 @@ import React from "react";
 import Heading from "../ui/Heading";
 import Text from "../ui/Text";
 import { paypalIcon } from "../../constant";
+import Image from "./Image";
 
 const ProfileStateCard = ({
   className = "",
@@ -27,43 +28,40 @@ const ProfileStateCard = ({
       `}
     >
       {!isMemberShip ? (
-        <img
+        <Image
           src={imageSrc}
           alt={name}
           width={64}
           height={64}
           className="
-          h-13
-          w-13          
-          research-card-circle-border-gradient      
-          shadow-research-card
-          object-cover
-        "
+      h-13
+      w-13          
+      research-card-circle-border-gradient      
+      shadow-research-card
+      object-cover
+    "
         />
       ) : (
         <div
           className="
-          h-13
-          w-13
-          shrink-0           
-          shadow-research-card
-          bg-membership-circle-badge-bg
-           rounded-full
-           overflow-hidden
-           flex-center
-          
-        "
+      h-13
+      w-13
+      shrink-0           
+      shadow-research-card
+      bg-membership-circle-badge-bg
+      rounded-full
+      overflow-hidden
+      flex-center
+    "
         >
-          <img
+          <Image
             src={paypalIcon}
             alt="paypal_logo"
             width={40}
             height={40}
             className="
-            w-6
-               
-         
-        "
+        w-6
+      "
           />
         </div>
       )}

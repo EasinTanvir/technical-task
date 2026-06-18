@@ -5,6 +5,7 @@ import Button from "../../ui/Button";
 import { arrowRightIcon } from "../../../constant";
 import Section from "../../shared/Section";
 import Heading from "../../ui/Heading";
+import Image from "../../shared/Image";
 
 const Content = () => {
   return (
@@ -100,10 +101,11 @@ const Content = () => {
                     bg-research-profile-title-two
                   "
             >
-              <img
+              <Image
                 src={arrowRightIcon}
-                alt=""
-                aria-hidden="true"
+                decorative
+                width={16}
+                height={16}
                 className="w-1.5 sm:w-2.5 md:w-4 mt-0.5"
               />
             </span>
