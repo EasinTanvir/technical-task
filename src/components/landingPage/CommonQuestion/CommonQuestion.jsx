@@ -8,7 +8,7 @@ import { commonQuestions } from "../../../data/commonQuestions";
 
 const CommonQuestion = () => {
   return (
-    <section className="py-16 md:py-24">
+    <section className="py-16 md:py-24 z-40 relative">
       <Container>
         <Heading as="h2" className="text-badge-text">
           Common Questions
