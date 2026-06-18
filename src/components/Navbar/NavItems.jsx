@@ -18,7 +18,7 @@ const NavItems = () => {
       <motion.div variants={navItemVariants}>
         <Button
           className="
-            text-heading-light
+            text-white
             text-sm
             font-semibold
             transition-opacity
@@ -38,7 +38,7 @@ const NavItems = () => {
         <Button
           className="
             bg-primary-button
-            text-heading-light
+            text-white
             text-sm
             font-semibold
             rounded-2xl
