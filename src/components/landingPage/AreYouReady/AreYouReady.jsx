@@ -84,8 +84,8 @@ const AreYouReady = () => {
             <span
               className="
                   flex
-                  h-12
-                  w-12
+                  h-8.5
+                  w-8.5
                   items-center
                   justify-center
                   rounded-full
