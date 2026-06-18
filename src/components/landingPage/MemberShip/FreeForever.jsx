@@ -14,8 +14,7 @@ const FreeForever = () => {
         className="
           mt-8
           text-heading-dark
-          text-center
-          md:text-left
+          
         "
       >
         Fee-Free Forever
@@ -27,8 +26,7 @@ const FreeForever = () => {
           mt-6
           max-w-120
           text-research-text         
-          text-center
-          md:text-left
+          
         "
       >
         We don't charge you fees and we don't put up paywalls. We're the bridge

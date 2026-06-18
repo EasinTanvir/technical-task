@@ -61,19 +61,24 @@ const TierCard = () => {
           className="
             absolute
             -left-4
-            -top-2
-            sm:-left-12
-            sm:top-0
+            sm:-left-10
+            lg:-left-6
+            xl:-left-10
+            -top-2  
+            xl:-top-2       
+          
           "
         />
 
         <ProfileStateCard
           isMemberShip
           className="
-            absolute
-            -left-4
+            absolute            
             bottom-6
-            sm:-left-17
+            -left-4
+            sm:-left-14
+            lg:-left-6
+            xl:-left-15
           "
           designationClass="text-research-profile-title-one text-xs"
           designation="Upcoming Payment In..."
