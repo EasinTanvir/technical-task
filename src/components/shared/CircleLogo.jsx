@@ -1,6 +1,8 @@
 import React from "react";
+
 import { logoIconImage } from "../../constant";
 import Image from "./Image";
+
 const CircleLogo = ({
   className = "",
   image = logoIconImage,

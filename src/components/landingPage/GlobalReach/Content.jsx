@@ -1,14 +1,15 @@
 import React from "react";
+
 import Badge from "../../shared/Badge";
 import Heading from "../../ui/Heading";
 import Text from "../../ui/Text";
 
 const Content = () => {
   return (
-    <div className="flex-1  space-y-10">
+    <div className="flex-1 space-y-10">
       <Badge text="Global Reach" />
 
-      <Heading as="h2" className=" mt-8 text-heading-dark">
+      <Heading as="h2" className="mt-8 text-heading-dark">
         The First Fully Global Job Board, Anywhere, Ever
       </Heading>
 

@@ -25,7 +25,6 @@ const HelpClick = () => {
             mt-6
             grid
             gap-8
-
             lg:grid-cols-2
           "
         >

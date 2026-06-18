@@ -3,7 +3,7 @@ const BackgroundImage = ({
   width = 1440,
   height = 704,
   className = "",
-  priority = false, // true for above-the-fold usage (Hero)
+  priority = false,
 }) => {
   return (
     <img

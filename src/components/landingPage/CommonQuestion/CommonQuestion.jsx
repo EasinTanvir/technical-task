@@ -50,16 +50,13 @@ const CommonQuestion = () => {
               p-2.5
               sm:text-base
               text-sm
-
               transition-all
               duration-300
               ease-out
-
               hover:bg-common-question-border-color
               hover:text-white
               hover:-translate-y-0.5
               hover:shadow-lg
-
               active:translate-y-0
               active:scale-[0.98]
             "

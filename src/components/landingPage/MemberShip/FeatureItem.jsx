@@ -1,4 +1,5 @@
 import React from "react";
+
 import Text from "../../ui/Text";
 import StatusIcon from "../../shared/StatusIcon";
 import { tikIcon } from "../../../constant";

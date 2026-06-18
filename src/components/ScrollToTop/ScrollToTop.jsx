@@ -1,4 +1,5 @@
 import React, { useEffect, useState } from "react";
+
 import Button from "../ui/Button";
 
 const ScrollToTop = () => {
@@ -31,8 +32,10 @@ const ScrollToTop = () => {
       onClick={handleScrollToTop}
       className="
         fixed
-        bottom-6
-        right-6
+        sm:bottom-6
+        sm:right-6
+        bottom-2
+        right-2
         z-50
         h-12
         w-12
@@ -46,7 +49,7 @@ const ScrollToTop = () => {
         hover:scale-105
       "
     >
-      <span className="text-xl font-bold">↑</span>
+      <span className="text-2xl font-bold">↑</span>
     </Button>
   );
 };

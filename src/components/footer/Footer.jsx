@@ -1,13 +1,12 @@
 import React from "react";
 
+import SocialLinkItem from "./SocialLinkItem";
 import BackgroundImage from "../shared/BackgroundImage";
 import Container from "../shared/Container";
 import Divider from "../shared/Divider";
-
 import { LogoImage, logoIconImage } from "../../constant";
 import { socialLinks } from "../../data/socialLinks";
 import { footerBg } from "../../constant";
-import SocialLinkItem from "./SocialLinkItem";
 import AnimatedSection from "../shared/animation/AnimatedSection";
 import Image from "../shared/Image";
 
@@ -16,7 +15,6 @@ const Footer = () => {
     <footer className="relative min-h-96 -mt-72">
       <BackgroundImage src={footerBg} className="-z-10" />
 
-      {/* Top Content */}
       <AnimatedSection direction="up" amount={0.3}>
         <Container
           className="
@@ -25,12 +23,10 @@ const Footer = () => {
               items-center
               justify-between
               gap-8
-
               sm:pt-72
               py-78
               sm:pb-10
               pb-2
-
               md:flex-row
             "
         >
@@ -63,7 +59,6 @@ const Footer = () => {
         </Container>
       </AnimatedSection>
 
-      {/* Full Width Divider */}
       <Divider className="mt-10" />
 
       <AnimatedSection

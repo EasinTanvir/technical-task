@@ -1,8 +1,9 @@
 import React from "react";
+
+import Image from "./Image";
 import Heading from "../ui/Heading";
 import Text from "../ui/Text";
 import { paypalIcon } from "../../constant";
-import Image from "./Image";
 
 const ProfileStateCard = ({
   className = "",
@@ -59,9 +60,7 @@ const ProfileStateCard = ({
             alt="paypal_logo"
             width={40}
             height={40}
-            className="
-        w-6
-      "
+            className="w-6"
           />
         </div>
       )}
@@ -71,7 +70,7 @@ const ProfileStateCard = ({
           {designation}
         </Text>
 
-        <Heading as="h3" className="  text-badge-text sm:text-lg! !text-base">
+        <Heading as="h3" className="  text-badge-text sm:text-lg! text-base!">
           {name}
         </Heading>
       </div>

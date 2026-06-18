@@ -1,8 +1,8 @@
 import React from "react";
+
 import CircleLogo from "../../shared/CircleLogo";
 import EmptyCircle from "../../shared/EmptyCircle";
 import Heading from "../../ui/Heading";
-
 import { profileImage } from "../../../constant";
 import { membershipFeatures } from "../../../data/membershipFeatures";
 import FeatureItem from "./FeatureItem";
