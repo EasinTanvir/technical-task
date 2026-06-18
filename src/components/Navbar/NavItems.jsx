@@ -1,28 +1,21 @@
 import React from "react";
 import { motion } from "framer-motion";
+
 import Button from "../ui/Button";
-
-const containerVariants = {
-  hidden: {},
-  visible: {
-    transition: { staggerChildren: 0.1, delayChildren: 0.25 },
-  },
-};
-
-const itemVariants = {
-  hidden: { opacity: 0, y: -10 },
-  visible: { opacity: 1, y: 0, transition: { duration: 0.4, ease: "easeOut" } },
-};
+import {
+  navContainerVariants,
+  navItemVariants,
+} from "../shared/animation/varaints";
 
 const NavItems = () => {
   return (
     <motion.div
-      variants={containerVariants}
+      variants={navContainerVariants}
       initial="hidden"
       animate="visible"
       className="flex items-center gap-4"
     >
-      <motion.div variants={itemVariants}>
+      <motion.div variants={navItemVariants}>
         <Button
           className="
             text-heading-light
@@ -38,7 +31,7 @@ const NavItems = () => {
       </motion.div>
 
       <motion.div
-        variants={itemVariants}
+        variants={navItemVariants}
         whileHover={{ scale: 1.05 }}
         whileTap={{ scale: 0.97 }}
       >

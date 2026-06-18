@@ -7,28 +7,10 @@ import Heading from "../../ui/Heading";
 import Text from "../../ui/Text";
 import BackgroundImage from "../../shared/BackgroundImage";
 import Section from "../../shared/Section";
-
-const containerVariants = {
-  hidden: {},
-  visible: {
-    transition: {
-      staggerChildren: 0.18,
-      delayChildren: 0.15,
-    },
-  },
-};
-
-const itemVariants = {
-  hidden: { opacity: 0, y: 24 },
-  visible: {
-    opacity: 1,
-    y: 0,
-    transition: {
-      duration: 0.7,
-      ease: [0.25, 0.1, 0.25, 1],
-    },
-  },
-};
+import {
+  bannerContainerVariants,
+  bannerItemVariants,
+} from "../../shared/animation/varaints";
 
 const HeroSection = () => {
   return (
@@ -47,18 +29,18 @@ const HeroSection = () => {
 
       <Container>
         <motion.div
-          variants={containerVariants}
+          variants={bannerContainerVariants}
           initial="hidden"
           animate="visible"
           className="relative z-10 flex min-h-100 sm:min-h-100 lg:min-h-120 xl:min-h-155 flex-col items-center justify-center text-center space-y-6 max-w-185 mx-auto"
         >
-          <motion.div variants={itemVariants}>
+          <motion.div variants={bannerItemVariants}>
             <Heading as="h1" id="hero-heading">
               RemoteRecruit's Difference
             </Heading>
           </motion.div>
 
-          <motion.div variants={itemVariants}>
+          <motion.div variants={bannerItemVariants}>
             <Text
               size="lg"
               className="text-heading-light font-medium text-center!"
