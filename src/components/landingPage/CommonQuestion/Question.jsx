@@ -12,10 +12,10 @@ const Question = ({ question, answer, delay = 0 }) => {
       whileInView={{ opacity: 1, y: 0 }}
       viewport={{
         once: true,
-        amount: 0.2,
+        amount: 0.4,
       }}
       transition={{
-        duration: 0.5,
+        duration: 1,
         delay,
       }}
     >
