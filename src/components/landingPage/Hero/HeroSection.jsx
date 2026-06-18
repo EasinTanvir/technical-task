@@ -15,7 +15,7 @@ import {
 const HeroSection = () => {
   return (
     <Section
-      className="relative overflow-hidden"
+      className="relative overflow-hidden lg:pt-44! lg:pb-60! sm:pt-36! sm:pb-40! pt-28! pb-32!"
       aria-labelledby="hero-heading"
     >
       <motion.div
@@ -32,7 +32,7 @@ const HeroSection = () => {
           variants={bannerContainerVariants}
           initial="hidden"
           animate="visible"
-          className="relative z-10 flex min-h-100 sm:min-h-100 lg:min-h-120 xl:min-h-155 flex-col items-center justify-center text-center space-y-6 max-w-185 mx-auto"
+          className="relative z-10  flex-center flex-col space-y-6 max-w-185 mx-auto"
         >
           <motion.div variants={bannerItemVariants}>
             <Heading as="h1" id="hero-heading">
