@@ -8,10 +8,11 @@ import Button from "../../ui/Button";
 import { areYouReadyBgImage, arrowRightIcon } from "../../../constant";
 import EmptyCircle from "../../shared/EmptyCircle";
 import BackgroundImage from "../../shared/BackgroundImage";
+import Section from "../../shared/Section";
 
 const AreYouReady = () => {
   return (
-    <section className="relative h-165 overflow-hidden">
+    <Section className="relative h-165 overflow-hidden">
       <BackgroundImage src={areYouReadyBgImage} />
 
       <Container
@@ -108,7 +109,7 @@ const AreYouReady = () => {
 
       <EmptyCircle className=" absolute  bottom-16 right-40 z-10" />
       <EmptyCircle className=" absolute  top-10 left-50 z-10 bg-empty-circle-yellow-bg! w-10 h-10 " />
-    </section>
+    </Section>
   );
 };
 
