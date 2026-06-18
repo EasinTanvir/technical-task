@@ -3,10 +3,11 @@ import Container from "../../shared/Container";
 import Heading from "../../ui/Heading";
 import PricingCard from "./PricingCard";
 import { pricingPlans } from "../../../data/pricingPlans";
+import Section from "../../shared/Section";
 
 const HelpClick = () => {
   return (
-    <section className="py-16 md:py-24">
+    <Section>
       <Container>
         <Heading
           as="h2"
@@ -17,7 +18,8 @@ const HelpClick = () => {
 
         <div
           className="
-            mt-12
+            sm:mt-12
+            mt-6
             grid
             gap-8
 
@@ -29,7 +31,7 @@ const HelpClick = () => {
           ))}
         </div>
       </Container>
-    </section>
+    </Section>
   );
 };
 

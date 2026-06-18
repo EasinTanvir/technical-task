@@ -5,7 +5,7 @@ const Button = ({ children, className = "", ...props }) => {
     <button
       className={`      
         ${className}
-        cursor-pointer
+        cursor-pointer sm:text-base text-sm
       `}
       {...props}
     >

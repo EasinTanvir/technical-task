@@ -16,20 +16,21 @@ const PricingCard = ({ plan }) => {
         relative
         rounded-[28px]
         bg-white
-        p-5
+        p-6
         md:p-6
         shadow-research-card
 
      
       `}
     >
-      <div className="flex gap-5 md:gap-6">
+      <div className="flex sm:flex-row flex-col gap-5 md:gap-6">
         {/* Left Side */}
         <div
           className="
             relative
             flex
-            w-[150px]
+            sm:w-37.5
+            w-full
             shrink-0
             flex-col
             items-center
@@ -49,7 +50,7 @@ const PricingCard = ({ plan }) => {
               text="Premium"
               className="
       absolute
-      -top-5
+      -top-4
       left-1/2
       -translate-x-1/2
       pe-4
@@ -73,9 +74,12 @@ const PricingCard = ({ plan }) => {
 
         {/* Right Side */}
         <div className="flex flex-1 flex-col justify-center">
-          <ul className="space-y-4">
+          <ul className="sm:space-y-4 space-y-3.5">
             {plan.features.map((feature) => (
-              <li key={feature.text} className="flex items-start gap-3">
+              <li
+                key={feature.text}
+                className="flex items-start sm:gap-3 gap-2"
+              >
                 <StatusIcon
                   icon={feature.active ? tikIcon : crossIcon}
                   className={
@@ -87,11 +91,7 @@ const PricingCard = ({ plan }) => {
 
                 <Text
                   as="span"
-                  className={
-                    feature.active
-                      ? "text-plan-card-active-feature"
-                      : "text-member-ship-text"
-                  }
+                  className={`${feature.active ? "text-plan-card-active-feature" : "text-member-ship-text"} text-start!`}
                 >
                   {feature.text}
                 </Text>
@@ -106,7 +106,8 @@ const PricingCard = ({ plan }) => {
           mt-6
           w-full
           rounded-full
-          py-4
+          sm:py-4
+          py-3
           text-lg font-semibold
 
           ${
