@@ -5,17 +5,18 @@ import { heroBgImage } from "../../../constant";
 import Heading from "../../ui/Heading";
 import Text from "../../ui/Text";
 import BackgroundImage from "../../shared/BackgroundImage";
+import Section from "../../shared/Section";
 
 const HeroSection = () => {
   return (
-    <section
+    <Section
       className="relative overflow-hidden "
       aria-labelledby="hero-heading"
     >
       <BackgroundImage src={heroBgImage} />
 
       <Container>
-        <div className="relative z-10 flex min-h-122 md:min-h-150 xl:min-h-165 flex-col items-center justify-center text-center space-y-6 max-w-185 mx-auto">
+        <div className="relative z-10 flex min-h-100 sm:min-h-100 lg:min-h-120 xl:min-h-155 flex-col items-center justify-center text-center space-y-6 max-w-185 mx-auto">
           <Heading as="h1" id="hero-heading">
             RemoteRecruit's Difference
           </Heading>
@@ -29,7 +30,7 @@ const HeroSection = () => {
           </Text>
         </div>
       </Container>
-    </section>
+    </Section>
   );
 };
 
