@@ -8,15 +8,11 @@ const sizes = {
   xl: "text-xl",
 };
 
-const Text = ({
-  as: Tag = "p",
-  children,
-  size = "md",
-  className = "sm:text-start text-center",
-}) => {
+const Text = ({ as: Tag = "p", children, size = "md", className = "" }) => {
   return (
     <Tag
-      className={`       
+      className={`
+        sm:text-start text-center       
         ${sizes[size]}
         ${className}
       `}

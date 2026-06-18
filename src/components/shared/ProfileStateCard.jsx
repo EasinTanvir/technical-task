@@ -73,7 +73,7 @@ const ProfileStateCard = ({
           {designation}
         </Text>
 
-        <Heading as="h3" className="  text-badge-text text-lg!">
+        <Heading as="h3" className="  text-badge-text sm:text-lg! !text-base">
           {name}
         </Heading>
       </div>

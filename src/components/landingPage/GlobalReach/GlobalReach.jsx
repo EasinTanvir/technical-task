@@ -3,10 +3,11 @@ import React from "react";
 import Container from "../../shared/Container";
 import Content from "./Content";
 import FindWork from "./FindWork";
+import Section from "../../shared/Section";
 
 const GlobalReach = () => {
   return (
-    <section className="py-16 md:py-24">
+    <Section>
       <Container
         className="flex
             flex-col
@@ -19,7 +20,7 @@ const GlobalReach = () => {
         <Content />
         <FindWork />
       </Container>
-    </section>
+    </Section>
   );
 };
 
