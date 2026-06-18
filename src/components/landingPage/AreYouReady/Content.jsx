@@ -67,7 +67,7 @@ const Content = () => {
           </Text>
 
           <Button
-            className="
+            className=" sm:mx-0 mx-auto
     group
     mt-2
     sm:mt-5
