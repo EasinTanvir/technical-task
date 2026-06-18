@@ -10,6 +10,7 @@ import paypalIcon from "./assets/icons/paypalIcon.svg";
 
 import jobImage from "./assets/custom_profile/job_image.webp";
 import findWorkDashboardImage from "./assets/areyouready/find_work_dashboard.webp";
+import areYouReadyBgImage from "./assets/areyouready/areYouReadyBg.svg";
 
 export {
   heroBgImage,
@@ -21,4 +22,5 @@ export {
   paypalIcon,
   jobImage,
   findWorkDashboardImage,
+  areYouReadyBgImage,
 };

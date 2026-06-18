@@ -1,11 +1,13 @@
 import React from "react";
 import Container from "../../shared/Container";
+import BackgroundImage from "./BackgroundImage";
 
 const AreYouReady = () => {
   return (
-    <section className="py-16 md:py-24">
+    <section className="h-165 relative overflow-hidden border">
+      <BackgroundImage />
       <Container
-        className="flex
+        className=" border flex
             flex-col
             items-center
             gap-12
@@ -13,7 +15,8 @@ const AreYouReady = () => {
             lg:items-center
             lg:justify-between"
       >
-        AreYouReady
+        <div className="flex-1 border">AreYouReady</div>
+        <div className="flex-1 border">AreYouReady</div>
       </Container>
     </section>
   );
