@@ -11,6 +11,13 @@ import arrowRightIcon from "./assets/icons/arrowRightIcon.svg";
 import crossIcon from "./assets/icons/crossIcon.svg";
 import premiumIcon from "./assets/icons/premiumIcon.svg";
 
+import fbIcon from "./assets/icons/fbIcon.svg";
+import instagramIcon from "./assets/icons/instagramIcon.svg";
+import linkedinIcon from "./assets/icons/linkedinIcon.svg";
+import snapchatIcon from "./assets/icons/snapchatIcon.svg";
+import twitterIcon from "./assets/icons/twitterIcon.svg";
+import xTwitterIcon from "./assets/icons/xTwitterIcon.svg";
+
 import jobImage from "./assets/custom_profile/job_image.webp";
 import findWorkDashboardImage from "./assets/areyouready/find_work_dashboard.webp";
 import areYouReadyBgImage from "./assets/areyouready/areYouReadyBg.svg";
@@ -32,4 +39,10 @@ export {
   crossIcon,
   premiumIcon,
   footerBg,
+  fbIcon,
+  instagramIcon,
+  linkedinIcon,
+  snapchatIcon,
+  twitterIcon,
+  xTwitterIcon,
 };

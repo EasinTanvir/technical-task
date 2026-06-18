@@ -27,6 +27,7 @@ body {
   --color-plan-card-bg: rgba(236, 242, 255, 1);
   --color-plan-card-subtitle: rgba(17, 20, 45, 0.4);
   --color-plan-card-active-feature-text: rgba(50, 52, 69, 1);
+  --color-divider-color: rgba(139, 163, 204, 1);
 
   --background-image-research-card-circle-border: linear-gradient(
     132.56deg,
