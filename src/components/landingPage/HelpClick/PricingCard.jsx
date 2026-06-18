@@ -8,8 +8,10 @@ import { premiumIcon } from "../../../constant";
 
 import { tikIcon, crossIcon } from "../../../constant";
 import Badge from "../../shared/Badge";
+import { motion } from "framer-motion";
 
 const PricingCard = ({ plan }) => {
+  const MotionButton = motion.create(Button);
   return (
     <div
       className={`
@@ -101,24 +103,29 @@ const PricingCard = ({ plan }) => {
         </div>
       </div>
 
-      <Button
+      <MotionButton
+        whileHover={{ scale: 1.01, y: -2 }}
+        whileTap={{ scale: 0.97, y: 0 }}
+        transition={{ type: "spring", stiffness: 400, damping: 17 }}
         className={`
-          mt-6
-          w-full
-          rounded-full
-          sm:py-4
-          py-3
-          text-lg font-semibold
+    mt-6
+    w-full
+    rounded-full
+    sm:py-4
+    py-3
+    text-lg font-semibold
+    transition-shadow
+    duration-300
 
-          ${
-            plan.featured
-              ? "bg-pricing-card-button-bg text-white shadow-pricing-card-shadow"
-              : "pricing-card-button-border text-research-profile-title-one "
-          }
-        `}
+    ${
+      plan.featured
+        ? "bg-pricing-card-button-bg text-white shadow-pricing-card-shadow hover:shadow-xl"
+        : "pricing-card-button-border text-research-profile-title-one hover:bg-pricing-card-button-bg/5"
+    }
+  `}
       >
         {plan.buttonText}
-      </Button>
+      </MotionButton>
     </div>
   );
 };
