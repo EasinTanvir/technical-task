@@ -21,7 +21,10 @@ const HeroSection = () => {
             RemoteRecruit's Difference
           </Heading>
 
-          <Text size="lg" className=" text-heading-light font-medium">
+          <Text
+            size="lg"
+            className=" text-heading-light font-medium text-center!"
+          >
             RemoteRecruit is connecting the world with an easy-to-use platform
             that lets full-time, part-time, and freelance workers showcase their
             talents to businesses that need them. With no paywalls, no fees, and
