@@ -12,7 +12,7 @@ const Text = ({ as: Tag = "p", children, size = "md", className = "" }) => {
   return (
     <Tag
       className={`
-        sm:text-start text-center       
+        lg:text-start text-center       
         ${sizes[size]}
         ${className}
       `}

@@ -6,7 +6,7 @@ import Text from "../../ui/Text";
 
 const Content = () => {
   return (
-    <div className="flex-1 space-y-10">
+    <div className="flex-1 lg:space-y-10 space-y-3">
       <Badge text="Global Reach" />
 
       <Heading as="h2" className="mt-8 text-heading-dark">
