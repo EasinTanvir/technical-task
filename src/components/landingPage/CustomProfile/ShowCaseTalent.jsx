@@ -6,16 +6,14 @@ import Text from "../../ui/Text";
 
 const ShowCaseTalent = () => {
   return (
-    <div className="flex-1">
+    <div className="flex-1  lg:space-y-10 space-y-3">
       <Badge text="Custom Profile" />
 
       <Heading
         as="h2"
         className="
-          mt-8
-          text-heading-dark
-          text-center
-          md:text-left
+       
+          text-heading-dark          
         "
       >
         Showcase Your Talents
@@ -23,12 +21,9 @@ const ShowCaseTalent = () => {
 
       <Text
         size="lg"
-        className="
-          mt-6
+        className="          
           max-w-120
-          text-research-text         
-          text-center
-          md:text-left
+          text-research-text        
         "
       >
         Personalize your profile with everything that makes you unique. Add an
